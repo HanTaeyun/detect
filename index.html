@@ -12,7 +12,7 @@
 
     <script>
         // Netlify에서 Lambda 함수를 통해 전달된 JSON 데이터를 가져와서 객체 정보를 표시합니다.
-        fetch("/.netlify/functions/your-lambda-function-name")
+        fetch("https://hardhatdetect.netlify.app/")
             .then(response => response.json())
             .then(data => {
                 // 객체 정보를 objectInfo 요소에 표시
